@@ -1,0 +1,216 @@
+/*
+Common
+*******************/
+
+html, 
+body {
+    height: auto;
+    font-family: sans-serif;
+}
+
+/* .main {
+    border-bottom: 1px solid #ccc;
+    width: 800px;
+    height: 100px;
+} */
+
+/* .logo {
+    padding: 20px 40px;
+    max-width: 600px;
+    
+    } */
+    
+
+
+.content {
+max-width: 600px;
+margin: 0 auto;
+border-left: 1px solid #ccc;
+border-right: 1px solid #ccc;
+margin-left: auto;
+margin-right: auto;
+    justify-content: center;
+
+}
+
+
+.main-header {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+img.logo {
+    width: 40px;
+}
+
+h1 {
+    width: 10px;
+    padding-left: 10px;
+}
+
+
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+/*
+Post
+*******************/
+
+
+.my-icon {
+    position: absolute;
+    width: 80px;
+    padding: 5px 15px 10px 10px;
+}
+.my-icon img {
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid rgb(235, 238, 240);
+}
+
+input[type="text"] {
+    margin-left: 40px;
+}
+
+.post_form {
+    padding: 5px 45px 0px 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+
+
+.post_form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #e6fef7;
+    border-radius: 3px 3px 3px 3px;
+}
+
+
+input#uploadimage {
+    margin-left: 40px;
+    width: 60%;
+    padding-top: 20px;
+    border: 0;
+    background-color: white;
+}
+
+input#Tweet {
+    width: 20%;
+    background-color: rgb(29, 161, 242);
+    color: white;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+a#cancel {
+    text-decoration: NONE;
+    border: 1px solid;
+    background-color: gray;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+.post_form textarea {
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+    resize: none;
+    border: 1px solid #ccc;
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+
+.posts ul {
+    padding: 0;
+}
+
+
+
+
+.posts li {
+    position: relative;
+    display:flex;
+    border-bottom: 1px solid #ccc;
+    padding: 0px 40px;
+    list-style: none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+.posts li .menu_icon {
+    width: 20px;
+    position: absolute;
+    right: 30px;
+    top: 18px;
+}
+
+
+.posts li .menu {
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    background-color: #ccc;
+    padding: 10px 15px;
+    font-size: 13px;
+    display: none;
+    border-radius: 3px;
+    
+}
+
+
+
+
+
+.posts li .logo {
+    flex-basis: 15%;
+}
+
+.posts li .menu a {
+    text-decoration: none;
+}
+
+.posts li .logo img {
+    width: 60%;
+    border-radius: 50%;
+}
+.posts li .name_body {
+    flex-basis: 85%;
+}
+
+.posts li .name_body .name{
+    font-weight: bold;
+}
+
+.posts li .name_body .datetime {
+    color: gray;
+}
+
+
+
+
+
+@media screen and (max-width: 500px){
+    .posts li .name_body .name  {
+    font-size: 20px;
+    }
+
+}
+
+
+/****************************** edit 
+**************************************************/
+
+
